@@ -50,7 +50,7 @@ def verify_word(word, list):
         return False
 
 
-def main():
+def wordle():
     rich.print(correct_position('WELCOME') + " " + correct_letter('TO') + " " + incorrect_letter('WORDLE') + "")
 
     guesses = 6
@@ -77,6 +77,3 @@ def main():
 
     if guesses == 0 and player_input != actual_answer:
         console.print('WRONG GUESS! The correct word is ' + correct_position(actual_answer))
-
-if __name__ == '__main__':
-    main()
