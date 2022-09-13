@@ -19,7 +19,7 @@ def main():
             print("Under Construction")
         case "X":
             # print("Bye")
-            print("\033c")
+            print("\033c")            
     
 if __name__ == '__main__':
     main()
