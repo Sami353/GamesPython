@@ -18,7 +18,8 @@ def main():
         case "3":
             print("Under Construction")
         case "X":
-            print("Bye")
+            # print("Bye")
+            print("\033c")
     
 if __name__ == '__main__':
     main()
